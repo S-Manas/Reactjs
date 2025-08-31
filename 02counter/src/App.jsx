@@ -10,7 +10,15 @@ function App() {
     //console.log("clicked",Math.random());
     //counter=counter+1
     if(counter<20){
-      setCounter(counter+1)
+      // setCounter(counter+1)
+      // setCounter(counter+2)
+      // setCounter(counter+3)
+      // setCounter(counter+4)
+      // setCounter(counter+5) 
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
     }
   }
   const removevalue=()=>{
